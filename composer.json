@@ -1,0 +1,19 @@
+{
+    "name": "tomkirsch/microtime",
+    "type": "project",
+    "description": "CodeIgniter4 Microtime",
+    "require": {
+        "php": "^7.3||^8.0",
+        "codeigniter4/framework": "^4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Tomkirsch\\Microtime\\": "src/"
+        }
+    },
+    "archive": {
+        "exclude": [
+            "tests"
+        ]
+    }
+}
